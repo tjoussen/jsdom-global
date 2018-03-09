@@ -1,5 +1,7 @@
 # jsdom-global
 
+This fork uses the jsdom-wc implementation by tbranyen.
+
 > Enables DOM in Node.js
 
 jsdom-global will inject `document`, `window` and other DOM API into your Node.js environment. Useful for running, in Node.js, tests that are made for browsers.

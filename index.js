@@ -25,7 +25,7 @@ module.exports = function globalJsdom (html, options) {
     return global.document.destroy
   }
 
-  var jsdom = require('jsdom')
+  var jsdom = require('jsdom-wc')
   var document = new jsdom.JSDOM(html, options)
   var window = document.window
 
